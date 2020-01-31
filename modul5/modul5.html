@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script>
+            let show = () => {
+                var input = document.getElementById('input1').value
+                alert(input)
+            }
+            
+            let tambah = () => {
+                var input1 = document.getElementById('angka1').value
+                var input2 = document.getElementById('angka2').value
+                alert(parseInt(input1) + parseInt(input2))
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" name="" id='input1'/>
+        <button onclick="show()">Show</button><br><br>
+        <input type="text" name="" id='angka1'/>
+        <input type="text" name="" id='angka2'/>
+        <button onclick="tambah()">Tambah</button>
+    </body>
+</html>
